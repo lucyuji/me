@@ -21,7 +21,7 @@
 }
 
 nav {
-  max-width: 1456px;
+  max-width: 1450px;
   width: 100%;
   display: flex;
   margin: 0 auto;
@@ -29,9 +29,20 @@ nav {
   align-items: center;
 }
 
-@media (max-width: 700px){
+@media (max-width: 770px){
   .header {
-    flex-direction: column;
-    padding: 20px;
+    padding: 40px;
   }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  nav .logo {
+    width: 120%;
+  }
+
 }

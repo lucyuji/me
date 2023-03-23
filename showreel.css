@@ -3,7 +3,7 @@
   background-color: rgba(52, 152, 219, 1);
 }
 
-.showReel h1{
+.showReel h1 {
   text-align: center;
   font-family: Golos Text;
   font-size: 4.209rem;
@@ -13,10 +13,20 @@
 }
 
 .showReel span {
-  color: #FFC573;
+  color: #ffc573;
+  font-size: 4.209rem;
 }
 
 .showReel-video {
   margin: 0 auto;
   max-width: 800px;
+}
+
+@media (max-width: 498px) {
+  .showReel h1 {
+    font-size: 3rem;
+  }
+  .showReel span {
+    font-size: 3rem;
+  }
 }

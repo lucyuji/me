@@ -1,16 +1,16 @@
-.introducao{
+.introducao {
   max-width: 1456px;
-  padding: 40px 80px;
+  padding: 24px 48px;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 5fr 7fr;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 40px;
 }
 
-.introducao-text  {
-  padding: 20px;
+.introducao img {
+  max-width: 30%;
 }
 
 .introducao h1 {
@@ -26,16 +26,16 @@
   font-family: Golos Text;
   font-style: normal;
   font-weight: 900;
-  color: #145E8F;
+  color: #145e8f;
   margin-bottom: 8px;
 }
 
 .introducao p {
-  font-size: 1rem;
+  font-size: 2rem;
   font-family: Kanit;
   font-style: normal;
   font-weight: 400;
-  color: #3D3D3D;
+  color: #3d3d3d;
   margin-bottom: 8px;
 }
 
@@ -43,15 +43,53 @@
   font-weight: 900;
 }
 
-@media(max-width: 1100px){
-  .introducao{
+@media (max-width: 1100px) {
+  .introducao {
+    display: flex;
+    gap: 8px;
+  }
+  .introducao-text h1 {
+    font-size: 3rem;
+  }
+
+  .introducao-text h2 {
+    font-size: 2rem;
+  }
+  .introducao img {
+    max-width: 30%;
+  }
+  .introducao p,
+  span {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .introducao {
     display: flex;
     flex-wrap: wrap;
-    text-align: center;
+    text-align: start;
     gap: 10px;
-   }
-
+  }
   .introducao img {
-    max-width: 60%;
+    max-width: 40%;
+  }
+}
+
+@media (max-width: 320px) {
+  .introducao-text h1 {
+    font-size: 2rem;
+  }
+
+  .introducao-text h2 {
+    font-size: 1rem;
+  }
+
+  .introducao p {
+    font-size: 0.8rem;
+  }
+
+  .introducao span {
+    font-size: 0.8rem;
   }
 }
