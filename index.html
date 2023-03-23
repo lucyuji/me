@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type= "text/css" href="style.css">
+  <link rel="stylesheet" href="style.css">
   <title>Lyyf - Motion and Graphic Designer</title>
 </head>
 
@@ -14,7 +14,7 @@
 
   <header class="header">
     <nav>
-      <img class="logo" src="Assets/svg/lyyf.svg" alt="Lyyf">
+      <img class="logo" src="/Assets/svg/lyyf.svg" alt="Lyyf">
       <ul class="header-menu">
         <li><a href="https://www.instagram.com/lyyf.aep/"><img src="Assets/svg/instagram-icon.svg" alt="Instagram Icon"></a></li>
         <li><a href="https://www.behance.net/lucyuji"><img src="Assets/svg/behance-icon.svg" alt="Behance Icon"></a></li>
@@ -25,10 +25,10 @@
 
   <div class="container">
     <main class="introducao">
-      <img src="Assets/svg/faceicon.svg" alt="Vetor rosto">
+      <img src="/Assets/svg/faceicon.svg" alt="Vetor rosto">
       <div class="introducao-text">
         <h1>LUCAS YUJI</h1>
-        <h2> Motion & Graphic Designer </h2>
+        <h2> Motion &amp; Graphic Designer </h2>
         <p>Olá! Sou <span>Designer Gráfico Generalista</span>, especializado em <span>Motion Design</span>.
           Curioso e apaixonado por motion design, 3d e tecnologia, sempre procuro algo novo para aprender. Esse site é um dos projetos de <span>UX/UI</span> e <span>HTML/CSS</span>.</p>
       </div>
@@ -46,9 +46,12 @@
 
   <section class="container">
     <div class="experiencia">
-      <h1>EX<br>PE<br>RI<br>ÊN<br>CIA</h1>
+      <h1 class="h1-full">EX<br>PE<br>RI<br>ÊN<br>CIA</h1>
+      <h1 class="h1-700">EXPERIÊNCIA</h1>
+      <!-- grupo dos cards 'experiencia' -->
       <div class="experiencia-grid">
 
+        <!-- card 1 Videomaker -->
         <div class="experiencia-card">
 
           <div class="experiencia-desc">
@@ -78,6 +81,50 @@
           </div>
         </div>
 
+        <!-- card 2 designer gráfico -->
+        <div class="experiencia-card">
+          <div class="experiencia-desc">
+            <h3>Designer Gráfico</h3>
+            <p class="p2">Madre MP, Londrina/PR - 10/2020 até 12/2021</p>
+            <p class="p3">Através de animação 2d e edição de vídeos,colaborei na produção de vídeos para campanhas, materiais internos e institucionais, além de fornecer arquivos de aúdio e vídeo para canais diversos da empresa</p>
+          </div>
+          <div>
+            <ul class="tags">
+              <li>
+                <p class="p3">Edição de Vídeo</p>
+              </li>
+              <li>
+                <p class="p3">Animação 3D</p>
+              </li>
+              <li>
+                <p class="p3">Edição de Aúdio</p>
+              </li>
+              <li>
+                <p class="p3">Redes Sociais</p>
+              </li>
+              <li>
+                <p class="p3">Vetorização</p>
+              </li>
+              <li>
+                <p class="p3">Edição de Vídeo</p>
+              </li>
+              <li>
+                <p class="p3">Animação 3D</p>
+              </li>
+              <li>
+                <p class="p3">Edição de Aúdio</p>
+              </li>
+              <li>
+                <p class="p3">Redes Sociais</p>
+              </li>
+              <li>
+                <p class="p3">Vetorização</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- card 3 designer -->
         <div class="experiencia-card">
           <div class="experiencia-desc">
             <h3>Designer Gráfico</h3>
@@ -124,9 +171,88 @@
     </div>
   </section>
 
+  <section class="container-cursos">
+    <div class="cursos">
+      <div class="formacao">
+        <div class="formacao-main">
+          <img src="/Assets/svg/formação-icon.svg" alt="Ícone de beca">
+          <h1>FORMAÇÃO</h1>
+        </div>
+        <div class="bacharel">
+          <p>Sempre curiosos por design e tecnologia, aprofundei meu conhecimento em <span>Animação</span> durante a graduação e desde então aprofundei meu conhecimento no assunto e expandindo meus estudos para <span>Modelagem 3D</span> e <span>UX/UI</span> e <span>Desenvolvimento de Sites</span></p>
+          <div class="bacharel-card">
+            <div class="bacharel-card-desc">
+              <h2>
+                BACHAREL
+              </h2>
+              <h3>Artes Visuais Multimídia</h3>
+            </div>
+            <div class="bacharel-card-detail">
+              <span>2017 - 2021</span>
+              <p>UNOPAR - Unidade Catuaí</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="curso-container">
+      <div class="curso-complementar-wrapper">
+        <div class="curso-complementar">
+          <img src="/assets/svg/cursos.svg" alt="Ícone de livro">
+          <h1>CURSOS</h1>
+        </div>
+        <div class="curso-complementar-cards">
+          <div class="card-flex">
+            <h2>Fundamentos de Makerting - <span>Unifil</span></h2>
+            <p>Completo em Jun/2020</p>
+          </div>
+          <div class="card-flex">
+            <h2>Animações para composições tipográficas - <span>Domestika</span></h2>
+            <p>Completo em Jun/2021</p>
+          </div>
+
+          <div class="card-flex">
+            <h2>UX/UI Design - <span>Aldeia.cc</span></h2>
+            <p>Completo em Abr/2022</p>
+          </div>
+
+          <div class="card-flex">
+            <h2>Animação avançada para composições tipográficas - <span>Domestika</span></h2>
+            <p>Completo em Abr/2022</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
+    <div class="idiomas-container">
+      <div class="idiomas">
+        <div class="idiomas-main">
+          <img src="/assets/svg/idiomas.svg" alt="Ícone de idiomas">
+          <h1>IDIOMAS</h1>
+        </div>
+        <div class="idiomas-cards">
+          <div class="idiomas-cards-un">
+            <h2>Português</h2>
+            <p>Língua Nativa</p>
+          </div>
+          <div class="idiomas-cards-un">
+            <h2>Inglês</h2>
+            <p>Avançado</p>
+          </div>
+          <div class="idiomas-cards-un">
+            <h2>Japonês</h2>
+            <p>Iniciante</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <section class="softwares">
+    
+  </section>
 
 </body>
 
