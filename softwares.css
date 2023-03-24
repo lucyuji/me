@@ -1,0 +1,96 @@
+.softwares {
+  max-width: 1456px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 40px 60px 40px;
+}
+
+.softwares h1 {
+  font-family: "Golos Text", sans-serif;
+  font-size: 2.369rem;
+  text-align: center;
+  font-weight: 900;
+  padding-bottom: 1.5rem;
+  color: #145e8f;
+}
+
+.softwares .softwares-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.softwares .softwares-cards .softwares-cards-desc {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.softwares .softwares-cards .softwares-cards-desc img {
+  max-width: 50px;
+}
+
+.softwares .softwares-cards .softwares-cards-desc .circles {
+  display: flex;
+  gap: 4px;
+}
+
+.softwares .softwares-cards .softwares-cards-desc h3 {
+  font-size: 1rem;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  color: #145e8f;
+}
+
+@media (max-width: 768px) {
+  .softwares .softwares-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .softwares .softwares-cards .indesign {
+    display: none;
+  }
+}
+
+@media (max-width: 425px) {
+  .softwares .softwares-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .softwares .softwares-cards .softwares-cards-desc h3 {
+    font-size: 0.8rem;
+  }
+  .softwares .softwares-cards .softwares-cards-desc img {
+    max-width: 35px;
+  }
+  .softwares .softwares-cards .indesign {
+    display: inline-flex;
+  }
+
+  .softwares h1 {
+    font-size: 1.777rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .softwares {
+    padding: 20px 20px 40px 20px;
+  }
+  .softwares .softwares-cards .softwares-cards-desc {
+    gap: 4px;
+  }
+
+  .softwares .softwares-cards .softwares-cards-desc img {
+    max-width: 30px;
+  }
+  .softwares .softwares-cards .softwares-cards-desc h3 {
+    font-size: 0.55rem;
+  }
+  .softwares .softwares-cards .softwares-cards-desc .circles {
+    display: flex;
+    gap: 2px;
+  }
+  .softwares .softwares-cards .softwares-cards-desc .circles img {
+    max-width: 12px;
+  }
+}

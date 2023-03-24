@@ -109,6 +109,10 @@
 }
 
 @media (max-width: 1024px) {
+  .container-cursos {
+    gap: 0rem;
+  }
+
   .formacao img {
     max-width: 5rem;
   }
