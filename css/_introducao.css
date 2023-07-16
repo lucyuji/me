@@ -1,0 +1,95 @@
+.introducao {
+  max-width: 1456px;
+  padding: 24px 48px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.introducao img {
+  max-width: 30%;
+}
+
+.introducao h1 {
+  font-size: 3.157rem;
+  font-family: Golos Text;
+  font-style: normal;
+  font-weight: 900;
+  color: rgba(52, 152, 219, 1);
+}
+
+.introducao h2 {
+  font-size: 2.369rem;
+  font-family: Golos Text;
+  font-style: normal;
+  font-weight: 900;
+  color: #145e8f;
+  margin-bottom: 8px;
+}
+
+.introducao p {
+  font-size: 1.777rem;
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 400;
+  color: #3d3d3d;
+  margin-bottom: 8px;
+}
+
+.introducao span {
+  font-weight: 900;
+}
+
+@media (max-width: 1100px) {
+  .introducao {
+    display: flex;
+    gap: 8px;
+  }
+  .introducao-text h1 {
+    font-size: 3rem;
+  }
+
+  .introducao-text h2 {
+    font-size: 2rem;
+  }
+  .introducao img {
+    max-width: 30%;
+  }
+  .introducao p,
+  span {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .introducao {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+    gap: 10px;
+  }
+  .introducao img {
+    max-width: 40%;
+  }
+}
+
+@media (max-width: 320px) {
+  .introducao-text h1 {
+    font-size: 2rem;
+  }
+
+  .introducao-text h2 {
+    font-size: 1rem;
+  }
+
+  .introducao p {
+    font-size: 0.8rem;
+  }
+
+  .introducao span {
+    font-size: 0.8rem;
+  }
+}
