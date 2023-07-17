@@ -21,12 +21,28 @@
 
 .formacao-main {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: start;
   gap: 0.5rem;
 }
 
-.formacao img {
-  width: 120px;
+.formacao-section{
+  width: auto;
+  position: relative;
+}
+
+.formacao-section::after{
+  content:"";
+  display:inline-block;
+  position: absolute;
+
+  max-width:36px;
+  height:auto;
+
+  top: 12px;
+  left:-48px;
+
+  background-image: url("../Assets/formacao-icon.svg");
 }
 
 .formacao h1 {
@@ -35,26 +51,28 @@
   font-weight: 700;
   font-size: 2.369rem;
   color: #f0f0f0;
+
+  margin-left: 48px;
 }
 
-.bacharel {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-}
-
-.bacharel p {
+.formacao p {
   font-family: "Golos", sans-serif;
   font-size: 1.333rem;
   font-weight: 500;
   color: #f0f0f0;
 }
 
-.bacharel span {
+.formacao span {
   font-family: "Golos", sans-serif;
   font-size: 1.333rem;
   font-weight: 700;
   color: #f0f0f0;
+}
+
+.bacharel {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .bacharel .bacharel-card {

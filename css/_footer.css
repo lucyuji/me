@@ -44,6 +44,8 @@
   font-size: 1.333rem;
   font-weight: 500;
   color: #f0f0f0;
+
+  margin-bottom: 4px;
 }
 
 .footer .footer-contact h1 {
@@ -51,6 +53,8 @@
   font-size: 1rem;
   font-weight: 400;
   color: #f0f0f0;
+
+  margin-bottom: 8px;
 }
 
 .footer .footer-links ul li,
@@ -65,6 +69,7 @@ main-li {
   color: #f0f0f0;
   text-decoration: none;
   padding-bottom: 0.2rem;
+  margin-bottom: 8px;
 }
 
 .footer .footer-links ul .main-li {
@@ -72,6 +77,8 @@ main-li {
   font-size: 1.333rem;
   font-weight: 500;
   color: #f0f0f0;
+
+  margin-bottom: 4px;
 }
 
 @media (max-width: 1024px) {

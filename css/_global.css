@@ -84,6 +84,7 @@ video {
   border: 0;
   font-size: 100%;
   list-style: none;
+  text-decoration: none
 }
 * {
   box-sizing: border-box;
