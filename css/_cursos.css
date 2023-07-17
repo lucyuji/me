@@ -36,13 +36,15 @@
   display:inline-block;
   position: absolute;
 
-  max-width:36px;
-  height:auto;
+  width:36px;
+  height:100%;
 
   top: 12px;
   left:-48px;
 
-  background-image: url("../Assets/formacao-icon.svg");
+  background-image: url("./Assets/svg/formacao.svg");
+  background-size:cover;
+  background-repeat: no-repeat;
 }
 
 .formacao h1 {
