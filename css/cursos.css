@@ -1,0 +1,107 @@
+.container-cursos{
+  background-color: #145E8F;
+}
+
+.cursos {
+  max-width: 1456px;
+	width: 100%;
+	margin: 0 auto;
+  justify-content: center;
+  padding: 60px 40px;
+}
+
+.formacao {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 80px;
+}
+
+.formacao-main{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.formacao img{
+  max-width: 120px;
+}
+
+.formacao h1 {
+font-family: 'Kanit';
+font-style: normal;
+font-weight: 700;
+font-size: 2.369rem;
+color: #F0F0F0;
+}
+
+.bacharel {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.bacharel p{
+  font-family: 'Golos', sans-serif;
+  font-size: 1.333rem;
+  font-weight: 500;
+  color: #F0F0F0;
+}
+
+.bacharel span {
+  font-family: 'Golos', sans-serif;
+  font-size: 1.333rem;
+  font-weight: 700;
+  color: #F0F0F0;
+}
+
+.bacharel .bacharel-card{
+  display: flex;
+  gap: 8px;
+  padding: 8px 16px;
+  background-color: #F0F0F0;
+  border-radius: 4px;
+  place-self: start;
+}
+
+.bacharel .bacharel-card .bacharel-card-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.bacharel .bacharel-card .bacharel-card-desc h2{
+  font-family: 'Golos', sans-serif;
+  font-size: 1.333rem;
+  font-weight: 700;
+  color: #145E8F;
+}
+
+.bacharel .bacharel-card .bacharel-card-desc h3{
+  font-family: 'Kanit', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #3498db;
+}
+
+.bacharel .bacharel-card .bacharel-card-detail{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 4px 8px;
+  background-color: #145E8F;
+  color: #F0F0F0;
+  border-radius: 4px;
+  place-self: start;
+}
+
+.bacharel .bacharel-card .bacharel-card-detail span{
+  font-family: 'Kanit', sans-serif;
+  font-size: 9px;
+  font-weight: 400;
+}
+.bacharel .bacharel-card .bacharel-card-detail p{
+  font-family: 'Golos', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
